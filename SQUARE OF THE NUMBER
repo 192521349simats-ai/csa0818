@@ -1,0 +1,10 @@
+def calculation():
+   a=int(input("enter a num:"))
+   b=a*a
+   return b
+s=calculation()
+print(s)
+
+OUTPUT
+enter a num:5
+25
