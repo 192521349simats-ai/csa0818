@@ -1,0 +1,11 @@
+def akshitha():
+   c=int(input("enter celsius value"))
+   F=(c*(9/5))+32
+   return F
+F=akshitha()
+print(F)
+
+
+OUTPUT
+enter celsius value25
+77.0
