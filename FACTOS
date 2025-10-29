@@ -1,0 +1,25 @@
+x=int(input("enter the number:"))
+y=[]
+print("the factor of",x,"are:")
+for i in range(1,x):
+    if x%i==0:
+       y.append(i)
+print(y)
+print("numnber of factors:",len(y))
+n=int(input("enter n value:"))
+if n>len(y):
+    print("invalid")
+else:
+    print("first",n,"factors:")
+    for k in range(0,n):
+        print(y[k],end='')
+
+
+output
+enter the number:6fac
+the factor of 6 are:
+[1, 2, 3]
+numnber of factors: 3
+enter n value:2
+first 2 factors:
+12
