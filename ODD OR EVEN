@@ -1,0 +1,13 @@
+n=int(input("enter the num:"))
+if(n%2==0):
+  print("even")
+else:
+  print("odd")
+
+
+OUTPUT
+enter the num:2
+even
+.....
+enter the num:5
+odd
