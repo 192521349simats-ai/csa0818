@@ -1,0 +1,13 @@
+n=int(input("enter the num:"))
+if(n>0):
+  print("positive")
+else:
+  print("negative")
+
+
+OUTPUT
+enter the num:25
+positive
+.....
+enter the num:-25
+negative
